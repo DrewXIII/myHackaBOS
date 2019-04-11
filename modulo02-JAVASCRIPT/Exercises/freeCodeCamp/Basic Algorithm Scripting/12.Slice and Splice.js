@@ -6,7 +6,7 @@ Use the array methods slice and splice to copy each element of the first array i
 
 Begin inserting elements at index n of the second array.
 
-Return the resulting array. The input arrays should remain the same after the function runs. */
+Return the resulting array. The input arrays should remain the same after the function runs.*/
 
 function frankenSplice(arr1, arr2, n) {
   // It's alive. It's alive!
