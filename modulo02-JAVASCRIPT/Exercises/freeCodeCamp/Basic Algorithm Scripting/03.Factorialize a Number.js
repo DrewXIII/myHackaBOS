@@ -1,4 +1,4 @@
-/*3.Basic Algorithm Scripting: Factorialize a Number
+/*03.Basic Algorithm Scripting: Factorialize a Number
 
 Return the factorial of the provided integer.
 
