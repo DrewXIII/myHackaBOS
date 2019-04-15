@@ -11,7 +11,12 @@ For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 Only integers greater than or equal to zero will be supplied to the function.*/
 
 function factorialize(num) {
-  return num;
+  let result = 1;
+
+  for (let i = 1; i <= num; i++) {
+    result *= i;
+  }
+  return result;
 }
 
 factorialize(5);
