@@ -4,15 +4,11 @@ Truncate a string (first argument) if it is longer than the given maximum string
 
 function truncateString(str, num) {
   // Clear out that junk in your trunk
-  let result = [];
-
-  let arr = str.split("");
-
-  for (let i = 0; i < num; i++) {
-    result = arr[i];
+  if (str.length > num) {
+    return str.slice(0, num) + '...';
+  } else {
+    return str;
   }
-
-  return result.join("") + "...";
 }
 
 truncateString("A-tisket a-tasket A green and yellow basket", 8);

@@ -4,12 +4,14 @@ Repeat a given string str (first argument) for num times (second argument). Retu
 
 function repeatStringNumTimes(str, num) {
   // repeat after me
+  let accumulatedStr = '';
 
-  if (num > 0) {
-    return str.repeat(num);
-  } else {
-    return "";
+  while (num > 0) {
+    accumulatedStr += str;
+    num--;
   }
+
+  return accumulatedStr;
 }
 
 repeatStringNumTimes("abc", 3);
